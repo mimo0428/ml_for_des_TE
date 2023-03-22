@@ -1,0 +1,112 @@
+\ Model des_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ capacity[34,0]: F[0,34] + F[1,34] + F[2,34] + F[3,34] + F[4,34] + F[5,34]
+   + F[6,34] + F[7,34] + F[8,34] + F[9,34] + F[10,34] + F[11,34] + F[12,34]
+   + F[13,34] + F[14,34] + F[15,34] + F[16,34] + F[17,34] + F[18,34]
+   + F[19,34] + F[20,34] + F[21,34] + F[22,34] + F[23,34] + F[24,34]
+   + F[25,34] + F[26,34] + F[27,34] <= 22
+ TF[0,5]: F[0,10] - F[0,34] + T[0,5] = 0
+ TF[1,5]: F[1,10] - F[1,34] + T[1,5] = 0
+ TF[2,5]: F[2,10] - F[2,34] + T[2,5] = 0
+ TF[3,5]: F[3,10] - F[3,34] + T[3,5] = 0
+ TF[4,5]: F[4,10] - F[4,34] + T[4,5] = 0
+ TF[6,5]: F[6,10] - F[6,34] + T[6,5] = 0
+ TF[7,5]: F[7,10] - F[7,34] + T[7,5] = 0
+ TF[8,5]: F[8,10] - F[8,34] + T[8,5] = 0
+ TF[9,5]: F[9,10] - F[9,34] + T[9,5] = 0
+ TF[10,5]: F[10,10] - F[10,34] + T[10,5] = 0
+ TF[11,5]: F[11,10] - F[11,34] + T[11,5] = 0
+ TF[13,5]: F[13,10] - F[13,34] + T[13,5] = 0
+ TF[14,5]: F[14,10] - F[14,34] + T[14,5] = 0
+ TF[15,5]: F[15,10] - F[15,34] + T[15,5] = 0
+ TF[16,5]: F[16,10] - F[16,34] + T[16,5] = 0
+ TF[17,5]: F[17,10] - F[17,34] + T[17,5] = 0
+ TF[19,5]: F[19,10] - F[19,34] + T[19,5] = 0
+ TF[20,5]: F[20,10] - F[20,34] + T[20,5] = 0
+ TF[21,5]: F[21,10] - F[21,34] + T[21,5] = 0
+ TF[22,5]: F[22,10] - F[22,34] + T[22,5] = 0
+ TF[23,5]: F[23,10] - F[23,34] + T[23,5] = 0
+ TF[24,5]: F[24,10] - F[24,34] + T[24,5] = 0
+ TF[25,5]: F[25,10] - F[25,34] + T[25,5] = 0
+ TF[26,5]: F[26,10] - F[26,34] + T[26,5] = 0
+ TF[27,5]: F[27,10] - F[27,34] + T[27,5] = 0
+ demand_T: T[0,5] = 9
+ demand_T: T[1,5] = 5
+ demand_T: T[2,5] = 8
+ demand_T: T[3,5] = 4
+ demand_T: T[4,5] = 1
+ demand_T: T[6,5] = 4
+ demand_T: T[7,5] = 6
+ demand_T: T[8,5] = 7
+ demand_T: T[9,5] = 4
+ demand_T: T[10,5] = 3
+ demand_T: T[11,5] = 2
+ demand_T: T[13,5] = 6
+ demand_T: T[14,5] = 8
+ demand_T: T[15,5] = 6
+ demand_T: T[16,5] = 7
+ demand_T: T[17,5] = 8
+ demand_T: T[19,5] = 5
+ demand_T: T[20,5] = 9
+ demand_T: T[21,5] = 6
+ demand_T: T[22,5] = 9
+ demand_T: T[23,5] = 4
+ demand_T: T[24,5] = 4
+ demand_T: T[25,5] = 5
+ demand_T: T[26,5] = 2
+ demand_T: T[27,5] = 7
+Bounds
+ F[0,34] free
+ F[1,34] free
+ F[2,34] free
+ F[3,34] free
+ F[4,34] free
+ F[6,34] free
+ F[7,34] free
+ F[8,34] free
+ F[9,34] free
+ F[10,34] free
+ F[11,34] free
+ F[13,34] free
+ F[14,34] free
+ F[15,34] free
+ F[16,34] free
+ F[17,34] free
+ F[19,34] free
+ F[20,34] free
+ F[21,34] free
+ F[22,34] free
+ F[23,34] free
+ F[24,34] free
+ F[25,34] free
+ F[26,34] free
+ F[27,34] free
+ T[0,5] free
+ T[1,5] free
+ T[2,5] free
+ T[3,5] free
+ T[4,5] free
+ T[6,5] free
+ T[7,5] free
+ T[8,5] free
+ T[9,5] free
+ T[10,5] free
+ T[11,5] free
+ T[13,5] free
+ T[14,5] free
+ T[15,5] free
+ T[16,5] free
+ T[17,5] free
+ T[19,5] free
+ T[20,5] free
+ T[21,5] free
+ T[22,5] free
+ T[23,5] free
+ T[24,5] free
+ T[25,5] free
+ T[26,5] free
+ T[27,5] free
+End
